@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Access Forbidden!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+
+      .bgimg {
+        background-image: url("/assets/dist/img/10.png");
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: silver;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+      }
+
+      .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+      }
+
+      .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+      }
+
+      .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      hr {
+        margin: auto;
+        width: 40%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bgimg">
+      <div class="middle">
+        <p style="margin: 10px auto">
+          <img
+            src="/assets/dist/img/haz-logo.png"
+            style="width: 150px; vertical-align: middle"
+          />
+        </p>
+
+        <h1 style="margin-top: 0">Access Forbidden!</h1>
+        <hr />
+        <p>
+          You don't have permission to access the requested object. It is either
+          read-protected or not readable by the server. If you think this is a
+          server error, please contact the webmaster
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
